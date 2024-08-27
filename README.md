@@ -6,8 +6,6 @@ std::string rate = line.substr(delimiterPosition + 1);
 database.insert(std::make_pair(date, atof(rate.c_str())));
 ```
 
-The code snippet you provided is processing lines from a data file and inserting the parsed information into a `database` (likely a `std::map` or `std::unordered_map`). Let's break down what each part of the code does:
-
 
    ```
    size_t delimiterPosition = line.find(",");
