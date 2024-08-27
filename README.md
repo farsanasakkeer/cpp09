@@ -1,4 +1,18 @@
 # cpp09-ex00
+
+The line `std::map<std::string, double> database;` declares a `std::map` named `database` that stores key-value pairs where:
+
+- The **key** is a `std::string` (date).
+- The **value** is a `double` (exchange rate).
+
+
+- A `std::map` is an associative container that stores elements in a key-value pair format.
+- The keys in a `std::map` are unique, meaning that each key can only appear once in the map.
+- The map automatically keeps its elements sorted by the key.
+
+
+
+
 ```
 size_t delimiterPosition = line.find(",");
 std::string date = line.substr(0, delimiterPosition);
